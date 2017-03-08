@@ -11,8 +11,8 @@ get_header(); ?>
 			</div><br><br>
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="small"><div class="animated bounceIn">VitralTec Vidraçaria</div></h1>
-					<h3>Instalação e Manutenção de Vidros em geral</h3>
+					<h1 class="small"><div class="animated bounceIn">Ministério Evangélico Clamor Ágape</div></h1>
+					<h3>Levando a palavra de Deus de uma forma descontraída e edificante.</h3>
 				</div>
 			</div>
 		</div>
@@ -21,23 +21,33 @@ get_header(); ?>
 	<section id="servicos">
 		<div class="container">
 			<div class="row">
-			    <?php
-			        $args = array( 'post_type' => array('produto','servico'), 'posts_per_page' => 3, 'orderby' => 'rand' );
-			        $loop = new WP_Query( $args );
-
-			        while ( $loop->have_posts() ) : $loop->the_post(); global $product; 
-			    ?>
-	                <div class="col-md-4 <?php if($query->current_post == 0): echo "anima-a";  endif; if($query->current_post == 1): echo "anima-b";  endif; if($query->current_post == 2): echo "anima-c";  endif;?>">   
-	                    <a href="<?php echo get_permalink( $loop->post->ID ) ?>" title="<?php echo esc_attr($loop->post->post_title ? $loop->post->post_title : $loop->post->ID); ?>">
-	                        <?php the_post_thumbnail('home-thumb', array('class' => "img-responsive e-cinza")); ?>
-	                    </a><br>
-	                    <h4><?php the_title(); ?></h4><br>
-	                    <a href="<?php echo get_permalink( $loop->post->ID ) ?>" class="btn-confira" title="<?php echo esc_attr($loop->post->post_title ? $loop->post->post_title : $loop->post->ID); ?>" class="saiba-mais">
-	                    	CONFIRA
-	                    </a>
-	                </div>
-			    <?php endwhile; ?>
-			    <?php wp_reset_query(); ?>
+                <div class="col-md-4 anima-a">   
+                    <a href="#" title="#">
+                        <img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>" />
+                    </a><br>
+                    <h4>Conheça nossa liderança</h4><br>
+                    <a href="#" class="btn-confira" title="#">
+                    	saiba mais
+                    </a>
+                </div>
+                <div class="col-md-4 anima-b">   
+                    <a href="#" title="#">
+                        <img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>" />
+                    </a><br>
+                    <h4>Fotos da Igreja Clamor Ágape</h4><br>
+                    <a href="#" class="btn-confira" title="#">
+                    	saiba mais
+                    </a>
+                </div>
+                <div class="col-md-4 anima-c">   
+                    <a href="#" title="#">
+                        <img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>" />
+                    </a><br>
+                    <h4>Faça parte dos nossos grupos</h4><br>
+                    <a href="#" class="btn-confira" title="#">
+                    	saiba mais
+                    </a>
+                </div>
 			</div>
 		</div>		
 	</section>
@@ -46,33 +56,40 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 text-left anima-h">
-					<h2>Vidraçaria VitralTec</h2>
-					<p>A Vitraltec é especializada na instalação e manutenção de vidros, e é considerada uma das melhores vidraçarias de São Paulo.<br>
-					Na Vidraçaria Vitraltec você encontra: box de vidro, portas de vidro, espelhos modelados, tampo de mesa de vidro, tijolo de vidro, janelas de vidro, vidros laminados, vidros temperados, prateleiras de vidro e vidro comuns.
+					<h2>Ministério Evanglélico Clamor Ágape</h2>
+					<p>Conheça a origem do <strong>Ministério Evangélico Clamor Ágape.</strong><br>
+						Em abril 2012 ouvi o chamado do Senhor me dizendo: “Davi vai 
+						fazer a minha obra”. Em Agosto comecei a fazer culto nos lares, 
+						em especial na casa do sr Adhemar e Sra Rosenete, ficamos 
+						fazendo cultos durante alguns meses naquele lugar abençoado.
+					</p>
+					<p>No final do mês de Setembro de 2013, comecei a fazer os cultos 
+					na garagem da casa em que morava na Rua Ecologia, Jardim 
+					Imperador. 
 					</p>
 					<ul>
-						<li>Manutenção de vidros</li>
-						<li>Instalação de vidros</li>
-						<li>Vidros Personalizados</li>
-						<li>Vidraçaria em São Paulo</li>
+						<li>MECA Jovem e MECA Kids</li>
+						<li>MECA Louvor</li>
+						<li>MECA Artes</li>
+						<li>VMECA Mulheres e MECA Homens</li>
 					</ul>
-					<a href="<?php echo esc_url( home_url( '/' ) )."sobre"; ?>" class="btn-confira btn-azul margin-responsivo">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."sobre"; ?>" class="btn-confira btn-azul margin-responsivo">saiba mais</a>
 				</div>
 				<div class="col-md-6 text-left anima-i">
 					<div class="fotos-sobre row">
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Galeria Aroma e Sabor 01.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
 						</div>
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Galeria Aroma e Sabor 02.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
 						</div>
 					</div>
 					<div class="fotos-sobre row">	
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Galeria Aroma e Sabor 03.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
 						</div>
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Galeria Aroma e Sabor 04.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
 						</div>
 					</div>
 				</div>
@@ -86,10 +103,10 @@ get_header(); ?>
 				<div class="col-md-12">
 					<h2 class="branco">Nossa localização</h2>
 					<p>
-						Rua Vicente Prado, 117 - Bela Vista - São Paulo - SP
+						Rua Mainhumirim, 22 - Bairro IV Centenário - São Paulo - SP
 					</p>
 					<p>
-						<strong>Telefone.: </strong>11 2887-0327  |  11 95340-7221  <strong>Email.: </strong>vendas@vitraltec.com.br
+						<strong>Telefone.: </strong>11 1234-5678  <strong>Email.: </strong>contato@clamoragape.com.br
 					</p>
 				</div>
 			</div>

@@ -26,7 +26,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 }
 
 #page{
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
 	color:#373737;
 	text-align:center;
 	background-color:white;
@@ -49,28 +49,30 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		margin: 0;
 		margin-bottom: 20px;
 		font-size: 36px;
+		color:#1d3f98;
 	}
 
 	h1.small{
 		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-		font-size: 26px;
+		font-size: 24px;
 		font-weight: bold;
-		color:#282828;
+		color:#1d3f98;
 	}
 
 
 	h2{
 		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-		font-size: 26px;
-		color:#282828;
+		font-size: 22px;
+		color:#1d3f98;
 		margin-top:0px;
+		font-weight:bold;
 	}
 
 	h3{
 		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 		margin: 0;
 		margin-bottom: 20px;
-		font-size: 22px;
+		font-size: 20px;
 		font-weight: normal;
 	}
 
@@ -125,7 +127,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		background-color:#1d3f98;
 		padding:10px 45px;
 		color:#FFF;
-		font-weight:bold;
 		display:inline-block		
 	}
 

@@ -3,8 +3,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 text-center">
-						<h2 class="branco">Novidades e Promoções</h2>
-						<h5>Receba todas as nossas novidades e promoções</h5>
+						<h2 class="branco">MECA Ora</h2>
+						<h5>Deixe seu nome e email para nossa oração.</h5>
 						<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 3 ); } ?>
 					</div>
 				</div><!-- .row -->
@@ -14,7 +14,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						&copy; Copyright <?php echo date('Y') ?> -  VitralTec   | <a target="_blank" href="#">Site desenvolvido pelos Marketeiros Digitais.</a>
+						&copy; Copyright <?php echo date('Y') ?> -  Ministério Evangélico Clamor Ágape   | <a target="_blank" href="https://www.facebook.com/seimidigital/?ref=ts&fref=ts">Site desenvolvido pela Seimi Digital</a>
 					</div>
 				</div>	
 			</div>	

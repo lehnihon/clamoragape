@@ -2,8 +2,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2>VitralTec nas redes sociais</h2>
-				<h4>Acompanhe a VitralTec nas redes sociais e confira todas as nossas novidades.</h4>
+				<h2>Clamor Ágape nas redes sociais</h2>
+				<h4>Nos acompanhe nas redes sociais e confira todas as nossas novidades.</h4>
 			</div>
 		</div><!-- .row -->
 		<div class="row">
