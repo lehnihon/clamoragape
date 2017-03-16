@@ -245,7 +245,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-top: 40px; }
       #page section#header nav div.menu-header div.menu-op {
         float: right;
-        margin-right: 25px; }
+        margin-left: 25px; }
         #page section#header nav div.menu-header div.menu-op a {
           color: #3d3d3d;
           padding: 10px; }
@@ -509,5 +509,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */ }
+
+.wow {
+  visibility: hidden; }
 
 /*# sourceMappingURL=style.css.map */

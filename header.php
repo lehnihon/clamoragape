@@ -17,7 +17,9 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
-
+<script>
+new WOW().init();
+</script>
 </head>
 
 <body>
@@ -54,13 +56,13 @@
 							><li><a href="<?php echo home_url( '/' )."produtos"; ?>">Grupos</a></li
 							><li><a href="<?php echo home_url( '/' )."servicos"; ?>">Pastores</a></li
 							><li><a href="<?php echo home_url( '/' )."servicos"; ?>">Eventos</a></li
-							><li><a href="<?php echo home_url( '/' )."servicos"; ?>">Fotos</a></li
+							><li><a href="<?php echo home_url( '/' )."fotos"; ?>">Fotos</a></li
 							><li><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></li>
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/servicos' ).""; ?>">Fotos</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/fotos' ).""; ?>">Fotos</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/servicos' ).""; ?>">Eventos</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/servicos' ).""; ?>">Pastores</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/produtos' ).""; ?>">Grupos</a></div>

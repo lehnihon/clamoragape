@@ -5,36 +5,67 @@ get_header(); ?>
 	<section id="fotos-sobre">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 text-left">
-					<h1 class="small azul"><div class="animated bounceIn">Vidraçaria VitralTec</div></h1>
-					<p>A Vidraçaria Vitraltec conta com uma grande infra-estrutura além de profissionais 
-altamente capacitados que irão desempenhar com total responsabilidade e eficácia seu 
-projeto desde o planejamento até a instalação.
-</p>
-					<p>A Vitraltec é especializada na instalação e manutenção de vidros, e é considerada uma 
-das melhores vidraçarias de São Paulo. <br>
-A Vidraçaria Vitraltec se mantém sempre atualizada nas novas tendências de decoração 
-e arquitetura, tudo para atender a as expectativas e necessidades de seus clientes.</p>
-					<p><strong>Vidraçaria no centro de São Paulo</strong>
-A Vitraltec é uma vidraçaria localizada no centro de São Paulo.
-Contamos com uma grande variedade de produtos e serviços, todos eles realizados sob 
-um rígido controle de qualidade.
-Na Vidraçaria Vitraltec você encontra: box de vidro, portas de vidro, espelhos modelados, 
-tampo de mesa de vidro, tijolos de vidro, janelas de vidro, vidros laminados, vidros 
-temperados, prateleiras de vidro e vidros comuns.
-Também oferecemos todos os tipos de instalação em vidros, como envidraçamento de
-sacadas, vidros personalizados, vidro jateado e também fazemos manutenção de vidros 
-em geral.</p>
-					<ul>
-						<li>Manutenção de vidros</li>
-						<li>Instalação de vidros</li>
-						<li>Vidros personalizados</li>
-						<li>Vidraçaria em São Paulo</li>
-					</ul>
-					<a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>" class="btn-confira btn-azul">CONTATO</a>				
+				<div class="col-md-12 text-center">
+					<h1 class="wow fadeInUp small">Ministério Evanglélico Clamor Ágape</h1>
 				</div>
-				<div class="col-md-6">
-					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-mesa.jpg"; ?>"/>
+			</div><br>
+			<div class="row">
+				<div class="col-md-6 text-left">
+					<p class="wow fadeInUp">Em abril 2012 ouvi o chamado do Senhor me dizendo: Davi vai fazer 
+						a minha obra.<br>
+						Em Agosto comecei a fazer culto nos lares, em especial na casa do 
+						Sr. Adhemar e Sra.Rosenete, ficamos fazendo cultos durante alguns 
+						meses naquele lugarabençoado.<br>
+						No final do mês de Setembro de 2013 comecei a fazer os cultos na 
+						garagem da casa em que morava na Rua Ecologia, jardim Imperador. 
+					</p>
+					<p class="wow fadeInUp"><strong>Obs.:</strong> No primeiro culto tivemos 40 adultos e 25 crianças, e cada 
+						culto que fazíamos Deus acrescentava mais almas, a ponto do lugar 
+						não suportar mais pessoas.<br>
+						Em julho de 2013 Deus nos abençoou e conseguimos alugar um 
+						Salão pequeno na rua: Piraumbu n° 116  jardim imperador,  e neste 
+						lugar Deus começou nos abençoar aponto de co mprarmos cadeiras, 
+						instrumentos e equipamentos de som.
+					</p>
+					<p class="wow fadeInUp">Deus começou enviar mais vidas e o Salão ficou lotado de pessoas,
+						foi quando na sexta feira Santa de 2015 fizemos 24:00Hs. De oração 
+						pedindo a Deus um salão maior, o qual no dia seguinte Deus me 
+						conduziu até este Salão na rua Manhumirim n°22 Jd Imperador o 
+						qual  alugamos e mudamos no dia 1 de julho de 2015  e estamos 
+						até o dia de hoje  neste local louvando a Deus pelas vitórias.
+					</p>
+					<p class="wow fadeInUp">O trajeto até aqui não foi fácil, muitas lutas e perseguições no 
+						caminho, mais em todas as lutas e perseguições, Deus nos deu a 
+						vitória, como diz I Samuel 7:12 Então Samuel tomou uma pedra, 
+						e a pôs entre Mizpá e Sem,  e lhe chamou  Ebenézer; e disse: <br>
+						Até aqui nos ajudou o Senhor.
+					</p>
+					<p class="wow fadeInUp">Hoje já estamos com 4 anos de Ministério. o Ministério Evangélico 
+						Clamor Ágape nasceu do coração de Deus, para curar, salvar e 
+						restaurar vidas, esta é a nossa missão, levar vidas ao altar de Deus.
+					</p>
+					<p class="wow fadeInUp"><strong>Pastor Presidente:</strong><br>
+					David de Freitas Salgado
+					</p>
+
+				</div>
+				<div class="col-md-6 text-left wow fadeInUp">
+					<div class="fotos-sobre row">
+						<div class="col-md-6">
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
+						</div>
+						<div class="col-md-6">
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
+						</div>
+					</div>
+					<div class="fotos-sobre row">	
+						<div class="col-md-6">
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
+						</div>
+						<div class="col-md-6">
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
+						</div>
+					</div>
 				</div>
 			</div>	
 		</div>	

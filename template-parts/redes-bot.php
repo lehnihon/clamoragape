@@ -1,13 +1,13 @@
 <section id="redes-bot">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 wow fadeInUp">
 				<h2>Clamor Ágape nas redes sociais</h2>
 				<h4>Nos acompanhe nas redes sociais e confira todas as nossas novidades.</h4>
 			</div>
 		</div><!-- .row -->
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12 wow fadeInUp">
 				<ul class="redes_sociais_bot">
 					<li class="youtube"><a target="_blank" href="#"></a></li>
 					<li class="instagram"><a target="_blank" href="#"></a></li>
