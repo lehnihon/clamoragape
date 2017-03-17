@@ -46,4 +46,8 @@
         }
 	});
 
+	$('.img-slide').on('click',function(){
+		$(".img-principal").attr('src',$(this).attr('src'));
+	});
+
 } )( jQuery );

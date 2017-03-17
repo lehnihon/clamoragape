@@ -22,26 +22,26 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
                 <div class="col-md-4 wow fadeInLeft">   
-                    <a href="#" title="#">
-                        <img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>" />
+                    <a href="<?php echo home_url( '/' )."lideranca"; ?>" title="#">
+                        <img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Ministerio Evangelico Clamor Agape 01.jpg"; ?>" />
                     </a><br>
                     <h4>Conheça nossa liderança</h4><br>
-                    <a href="#" class="btn-confira" title="#">
+                    <a href="<?php echo home_url( '/' )."lideranca"; ?>" class="btn-confira" title="#">
                     	saiba mais
                     </a>
                 </div>
                 <div class="col-md-4 wow fadeInUp">   
-                    <a href="#" title="#">
-                        <img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>" />
+                    <a href="<?php echo home_url( '/' )."fotos"; ?>" title="#">
+                        <img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Ministerio Evangelico Clamor Agape 02.jpg"; ?>" />
                     </a><br>
                     <h4>Fotos da Igreja Clamor Ágape</h4><br>
-                    <a href="#" class="btn-confira" title="#">
+                    <a href="<?php echo home_url( '/' )."fotos"; ?>" class="btn-confira" title="#">
                     	saiba mais
                     </a>
                 </div>
                 <div class="col-md-4 wow fadeInRight">   
                     <a href="#" title="#">
-                        <img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>" />
+                        <img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Ministerio Evangelico Clamor Agape 03.jpg"; ?>" />
                     </a><br>
                     <h4>Faça parte dos nossos grupos</h4><br>
                     <a href="#" class="btn-confira" title="#">
@@ -78,18 +78,18 @@ get_header(); ?>
 				<div class="col-md-6 text-left wow fadeInUp">
 					<div class="fotos-sobre row">
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Ministerio Evangelico Clamor Agape 04.jpg"; ?>"/>
 						</div>
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Ministerio Evangelico Clamor Agape 05.jpg"; ?>"/>
 						</div>
 					</div>
 					<div class="fotos-sobre row">	
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Ministerio Evangelico Clamor Agape 06.jpg"; ?>"/>
 						</div>
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Ministerio Evangelico Clamor Agape 07.jpg"; ?>"/>
 						</div>
 					</div>
 				</div>

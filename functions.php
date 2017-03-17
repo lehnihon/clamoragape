@@ -116,14 +116,13 @@ add_action( 'widgets_init', 'site_widgets_init' );
 function site_scripts() {
 	wp_enqueue_style( 'site-style-bootstrap', get_template_directory_uri() ."/bootstrap/css/bootstrap.min.css" );
 	wp_enqueue_style( 'site-style-animate', get_template_directory_uri() ."/animate.css" );
+	wp_enqueue_style( 'site-style-bxslider', get_template_directory_uri() ."/js/jquery.bxslider.css" );
 	wp_enqueue_style( 'site-style', get_stylesheet_uri() );
 	
 	wp_enqueue_script( 'site-script-jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js');
 	wp_enqueue_script( 'site-script-bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js');
 	wp_enqueue_script( 'site-script-jquery-ui', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js');
-	wp_enqueue_script( 'site-script-mask', get_template_directory_uri() . '/js/jquery.mask.min.js');
-	wp_enqueue_script( 'site-script-waypoints', 'http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js',array(),false,true);
-	wp_enqueue_script( 'site-script-counterup', get_template_directory_uri() . '/js/jquery.counterup.min.js',array(),false,true);
+	wp_enqueue_script( 'site-script-bxslider', get_template_directory_uri() . '/js/jquery.bxslider.min.js',array(),false,true);
 	wp_enqueue_script( 'site-script-wow', get_template_directory_uri() . '/js/wow.min.js',array());
 	wp_enqueue_script( 'site-script-site', get_template_directory_uri() . '/js/script.js',array(),false,true);
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -152,48 +151,30 @@ function template_chooser($template)
 }
 add_filter('template_include', 'template_chooser');
 
-/**
- * CUSTOM POST TYPE
- */
 
-function register_post_type_produto(){
-	$singular = 'Produto';
-	$plural = 'Produtos';
-	$labels = array(
-		'name' => $plural,
-		'singular_name' => $singular,
-		'add_new_item' => 'Adicionar novo '.$singular,
-		);
-	$args = array(
-		'labels' => $labels,
-		'public' => true,
-        'supports' => array('title', 'editor','thumbnail'),
-        'menu_position' => 5
-		);
-
-	register_post_type('produto',$args);
+function change_post_menu_label() {
+    global $menu;
+    global $submenu;
+    $menu[5][0] = 'Eventos';
+    $submenu['edit.php'][5][0] = 'Eventos';
+    $submenu['edit.php'][10][0] = 'Adicionar Eventos';
 }
-add_action(	'init','register_post_type_produto');
-
-
-function register_post_type_servico(){
-	$singular = 'Serviço';
-	$plural = 'Serviços';
-	$labels = array(
-		'name' => $plural,
-		'singular_name' => $singular,
-		'add_new_item' => 'Adicionar novo '.$singular,
-		);
-	$args = array(
-		'labels' => $labels,
-		'public' => true,
-        'supports' => array('title', 'editor','thumbnail'),
-        'menu_position' => 5
-		);
-
-	register_post_type('servico',$args);
+function change_post_object_label() {
+        global $wp_post_types;
+        $labels = &$wp_post_types['post']->labels;
+        $labels->name = 'Eventos';
+        $labels->singular_name = 'Eventos';
+        $labels->add_new = 'Adicionar Eventos';
+        $labels->add_new_item = 'Adicionar Eventos';
+        $labels->edit_item = 'Editar Eventos';
+        $labels->new_item = 'Eventos';
+        $labels->view_item = 'Ver Eventos';
+        $labels->search_items = 'Procurar Eventos';
+        $labels->not_found = 'Eventos não encontrado';
+        $labels->not_found_in_trash = 'Sem Eventos na lixeira';
 }
-add_action(	'init','register_post_type_servico');
+add_action( 'init', 'change_post_object_label' );
+add_action( 'admin_menu', 'change_post_menu_label' );
 
 
 

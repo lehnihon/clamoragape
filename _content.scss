@@ -101,7 +101,7 @@ div#content{
 	section#fotos-sobre{
 		padding-top:40px;
 		padding-bottom:80px;	
-		background-color:white;
+		background-color:#f6f8fb;
 		line-height:22px;
 
 		h2{
@@ -121,11 +121,35 @@ div#content{
 			}
 		}
 
+		.img-slide{
+			cursor:pointer;
+		}
+
 		div.fotos-sobre{
 			img{
 				float:left;
 				border:10px solid #f4f2f2;
 				margin:5px;
+			}
+		}
+
+		.alinhamento{
+		    display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+
+			.desc{
+				float:left;
+				width:50%;
+				border-left:15px solid #f6f8fb;
+				background-color:#FFF;
+				padding:30px 20px;
+			}
+
+			.foto{
+				float:left;
+				width:50%;
 			}
 		}
 
@@ -235,7 +259,7 @@ div#content{
 
 		div.quadro{
 			padding:25px 50px;
-			background-color:#158fdb;
+			background-color:#1d3f98;
 			margin-top: 10px;
 			color:white;
 		}

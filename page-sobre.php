@@ -52,18 +52,18 @@ get_header(); ?>
 				<div class="col-md-6 text-left wow fadeInUp">
 					<div class="fotos-sobre row">
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Ministerio Evangelico Clamor Agape 04.jpg"; ?>"/>
 						</div>
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Ministerio Evangelico Clamor Agape 05.jpg"; ?>"/>
 						</div>
 					</div>
 					<div class="fotos-sobre row">	
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Ministerio Evangelico Clamor Agape 06.jpg"; ?>"/>
 						</div>
 						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner.jpg"; ?>"/>
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Ministerio Evangelico Clamor Agape 07.jpg"; ?>"/>
 						</div>
 					</div>
 				</div>

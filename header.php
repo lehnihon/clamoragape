@@ -53,19 +53,19 @@ new WOW().init();
 							<ul class="dropdown-menu">
 							<li><a href="<?php echo home_url( '/' ); ?>">Início</a></li
 							><li><a href="<?php echo home_url( '/' )."sobre"; ?>">História</a></li
-							><li><a href="<?php echo home_url( '/' )."produtos"; ?>">Grupos</a></li
-							><li><a href="<?php echo home_url( '/' )."servicos"; ?>">Pastores</a></li
-							><li><a href="<?php echo home_url( '/' )."servicos"; ?>">Eventos</a></li
+							><li><a href="#">Grupos</a></li
+							><li><a href="<?php echo home_url( '/' )."lideranca"; ?>">Pastores</a></li
+							><li><a href="<?php echo home_url( '/' )."eventos"; ?>">Eventos</a></li
 							><li><a href="<?php echo home_url( '/' )."fotos"; ?>">Fotos</a></li
 							><li><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></li>
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/fotos' ).""; ?>">Fotos</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/servicos' ).""; ?>">Eventos</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/servicos' ).""; ?>">Pastores</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/produtos' ).""; ?>">Grupos</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."fotos"; ?>">Fotos</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."eventos"; ?>">Eventos</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."lideranca"; ?>">Pastores</a></div>
+							<div class="menu-op"><a href="#">Grupos</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">Hístória</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Início</a></div>
 						</div>

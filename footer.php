@@ -5,7 +5,7 @@
 					<div class="col-md-6 col-md-offset-3 text-center">
 						<h2 class="branco">MECA Ora</h2>
 						<h5>Deixe seu nome e email para nossa oração.</h5>
-						<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 3 ); } ?>
+						<?php echo do_shortcode('[contact-form-7 id="24" title="News"]'); ?>
 					</div>
 				</div><!-- .row -->
 			</div><!-- .container -->			

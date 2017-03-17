@@ -139,8 +139,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     border-radius: 3px; }
   #page .input-contato {
     border: 0;
-    padding: 5px;
-    background-color: #f6f8fb; }
+    padding: 20px 10px;
+    background-color: #f6f8fb;
+    width: 90%; }
   #page .input-contatob {
     border: 0;
     padding: 5px;
@@ -332,7 +333,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page div#content section#fotos-sobre {
     padding-top: 40px;
     padding-bottom: 80px;
-    background-color: white;
+    background-color: #f6f8fb;
     line-height: 22px; }
     #page div#content section#fotos-sobre h2 {
       margin-bottom: 20px; }
@@ -344,10 +345,26 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page div#content section#fotos-sobre ul li:before {
         content: "\2713 \00a0";
         font-weight: bold; }
+    #page div#content section#fotos-sobre .img-slide {
+      cursor: pointer; }
     #page div#content section#fotos-sobre div.fotos-sobre img {
       float: left;
       border: 10px solid #f4f2f2;
       margin: 5px; }
+    #page div#content section#fotos-sobre .alinhamento {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      #page div#content section#fotos-sobre .alinhamento .desc {
+        float: left;
+        width: 50%;
+        border-left: 15px solid #f6f8fb;
+        background-color: #FFF;
+        padding: 30px 20px; }
+      #page div#content section#fotos-sobre .alinhamento .foto {
+        float: left;
+        width: 50%; }
   #page div#content section#maps {
     background-color: #1d3f98;
     color: white; }
@@ -415,7 +432,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin-top: 40px; }
     #page div#content section#contato div.quadro {
       padding: 25px 50px;
-      background-color: #158fdb;
+      background-color: #1d3f98;
       margin-top: 10px;
       color: white; }
   #page div#content section#redes-bot {
