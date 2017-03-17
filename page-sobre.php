@@ -73,23 +73,22 @@ get_header(); ?>
 
 	<section id="maps">
 		<div class="container">
-			<div class="row text-left detalhes-maps">
+			<div class="row text-left detalhes-maps wow fadeInUp">
 				<div class="col-md-12">
 					<h2 class="branco">Nossa localização</h2>
 					<p>
-						Rua Capitão Eugênio de Macedo, 353 - Itaim Paulista - São Paulo - SP
+						Rua Mainhumirim, 22 - Bairro IV Centenário - São Paulo - SP
 					</p>
 					<p>
-						<strong>Telefone.: </strong>11 2561-5068 | 11 98359-1900  <strong>Email.: </strong>vendas@vitraltec.com.br
+						<strong>Telefone.: </strong>11 1234-5678  <strong>Email.: </strong>contato@clamoragape.com.br
 					</p>
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid">
+		<div class="container-fluid wow fadeIn">
 			<div class="row">
 				<div class="col-md-12 videoWrapper">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.0745529549595!2d-46.53579738443502!3d-23.637500970294973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce42b832ebfd53%3A0x6ba710aa9626a2ea!2sR.+Silveira+Martins%2C+160+-+Santa+Teresinha%2C+Santo+Andr%C3%A9+-+SP%2C+09210-520!5e0!3m2!1spt-BR!2sbr!4v1470075254982" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>			
-				</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.393505620972!2d-46.50187428452852!3d-23.590216384668544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6796f72e2a57%3A0x40341fa02351142a!2sR.+Manhumirim%2C+22+-+Jardim+Imperador+(Zona+Leste)%2C+S%C3%A3o+Paulo+-+SP%2C+03934-100!5e0!3m2!1spt-BR!2sbr!4v1489424188101" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>			</div>
 			</div>			
 		</div>
 	</section>
