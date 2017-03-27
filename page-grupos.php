@@ -6,11 +6,11 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h1 class="wow fadeInUp small">Eventos</h1>
+					<h1 class="wow fadeInUp small">Grupos</h1>
 				</div>
 			</div><br>
 			<?php
-			$query = new WP_Query(array('post_type' => 'post'));
+			$query = new WP_Query(array('post_type' => 'grupos'));
 			while ( $query->have_posts() ) : $query->the_post();
 			?>
 			<div class="row alinhamento">

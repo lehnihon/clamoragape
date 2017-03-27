@@ -176,6 +176,24 @@ function change_post_object_label() {
 add_action( 'init', 'change_post_object_label' );
 add_action( 'admin_menu', 'change_post_menu_label' );
 
+function register_post_type_grupos(){
+	$singular = 'Grupo';
+	$plural = 'Grupos';
+	$labels = array(
+		'name' => $plural,
+		'singular_name' => $singular,
+		'add_new_item' => 'Adicionar novo '.$singular,
+		);
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+        'supports' => array('title', 'editor','thumbnail'),
+        'menu_position' => 5
+		);
+
+	register_post_type('grupos',$args);
+}
+add_action(	'init','register_post_type_grupos');
 
 
 /**

@@ -30,9 +30,9 @@ new WOW().init();
 				<div class="row">
 					<div class="col-md-2 col-md-offset-10">
 						<ul class="redes_sociais_header">
-							<li class="youtube"><a target="_blank" href="#"></a></li>
+							<li class="youtube"><a target="_blank" href="https://www.facebook.com/mecagape/?fref=ts"></a></li>
 							<li class="instagram"><a target="_blank" href="#"></a></li>
-							<li class="twitter"><a target="_blank" href="#"></a></li>
+							<li class="twitter"><a target="_blank" href="https://www.instagram.com/m.e.c.a.insta/"></a></li>
 							<li class="facebook"><a target="_blank" href="#"></a></li>
 						</ul>
 					</div>
@@ -53,7 +53,7 @@ new WOW().init();
 							<ul class="dropdown-menu">
 							<li><a href="<?php echo home_url( '/' ); ?>">Início</a></li
 							><li><a href="<?php echo home_url( '/' )."sobre"; ?>">História</a></li
-							><li><a href="#">Grupos</a></li
+							><li><a href="<?php echo home_url( '/' )."grupos"; ?>">Grupos</a></li
 							><li><a href="<?php echo home_url( '/' )."lideranca"; ?>">Pastores</a></li
 							><li><a href="<?php echo home_url( '/' )."eventos"; ?>">Eventos</a></li
 							><li><a href="<?php echo home_url( '/' )."fotos"; ?>">Fotos</a></li
@@ -65,7 +65,7 @@ new WOW().init();
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."fotos"; ?>">Fotos</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."eventos"; ?>">Eventos</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."lideranca"; ?>">Pastores</a></div>
-							<div class="menu-op"><a href="#">Grupos</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."grupos"; ?>">Grupos</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">Hístória</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Início</a></div>
 						</div>
