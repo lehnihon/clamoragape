@@ -14,7 +14,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						&copy; Copyright <?php echo date('Y') ?> -  Ministério Evangélico Clamor Ágape   | <a target="_blank" href="https://www.facebook.com/seimidigital/?ref=ts&fref=ts">Site desenvolvido pela Seimi Digital</a>
+						&copy; Copyright <?php echo date('Y') ?> -  Ministério Evangélico Clamor Ágape   | 					
+						<a target="_blank" href="http://www.facebook.com/seimidigital">
+						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-small.png"; ?>" />
+						</a>
 					</div>
 				</div>	
 			</div>	

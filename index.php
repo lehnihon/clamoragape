@@ -71,7 +71,7 @@ get_header(); ?>
 						<li>MECA Jovem e MECA Kids</li>
 						<li>MECA Louvor</li>
 						<li>MECA Artes</li>
-						<li>VMECA Mulheres e MECA Homens</li>
+						<li>MECA Mulheres e MECA Homens</li>
 					</ul>
 					<a href="<?php echo esc_url( home_url( '/' ) )."sobre"; ?>" class="wow fadeInUp btn-confira btn-azul margin-responsivo">saiba mais</a>
 				</div>
