@@ -13,15 +13,10 @@ get_header(); ?>
 			$query = new WP_Query(array('post_type' => 'post'));
 			while ( $query->have_posts() ) : $query->the_post();
 			?>
-			<div class="row alinhamento">
-				<div class="foto">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
 					<?php the_post_thumbnail('',array('class' => "e-cinza img-responsive")); ?>
 				</div>
-				<div class="desc text-left">
-					<h4><?php the_title(); ?></h4>
-					<?php the_content(); ?>
-				</div>
-
 			</div><br>
 			<?php endwhile; ?>
 		</div>	

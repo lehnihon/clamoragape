@@ -56,7 +56,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 text-left">
-					<h2 class="wow fadeInUp">Ministério Evanglélico Clamor Ágape</h2>
+					<h2 class="wow fadeInUp">Ministério Evangélico Clamor Ágape</h2>
 					<p class="wow fadeInUp">Conheça a origem do <strong>Ministério Evangélico Clamor Ágape.</strong><br>
 						Em abril 2012 ouvi o chamado do Senhor me dizendo: “Davi vai 
 						fazer a minha obra”. Em Agosto comecei a fazer culto nos lares, 
