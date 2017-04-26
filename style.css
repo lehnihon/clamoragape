@@ -177,7 +177,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       float: left; }
     #page section#header header ul {
       padding-left: 15px;
-      float: left; }
+      float: right; }
     #page section#header header ul.redes_sociais_header {
       height: 28px;
       text-align: right;

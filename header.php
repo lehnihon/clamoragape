@@ -28,7 +28,7 @@ new WOW().init();
 		<header>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-2 col-md-offset-10">
+					<div class="col-md-3 col-md-offset-9">
 						<ul class="redes_sociais_header">
 							<li class="youtube"><a target="_blank" href="https://www.facebook.com/mecagape/?fref=ts"></a></li>
 							<li class="instagram"><a target="_blank" href="#"></a></li>
