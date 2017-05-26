@@ -40,11 +40,11 @@ get_header(); ?>
                     </a>
                 </div>
                 <div class="col-md-4 wow fadeInRight">   
-                    <a href="#" title="#">
+                    <a href="<?php echo home_url( '/' )."grupos"; ?>" title="#">
                         <img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Ministerio Evangelico Clamor Agape 03.jpg"; ?>" />
                     </a><br>
                     <h4>Faça parte dos nossos grupos</h4><br>
-                    <a href="#" class="btn-confira" title="#">
+                    <a href="<?php echo home_url( '/' )."grupos"; ?>" class="btn-confira" title="#">
                     	saiba mais
                     </a>
                 </div>
@@ -75,7 +75,7 @@ get_header(); ?>
 					</ul>
 					<a href="<?php echo esc_url( home_url( '/' ) )."sobre"; ?>" class="wow fadeInUp btn-confira btn-azul margin-responsivo">saiba mais</a>
 				</div>
-				<div class="col-md-6 text-left wow fadeInUp">
+				<div class="col-md-6 text-left">
 					<div class="fotos-sobre row">
 						<div class="col-md-6">
 							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Ministerio Evangelico Clamor Agape 04.jpg"; ?>"/>

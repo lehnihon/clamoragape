@@ -348,7 +348,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div#content section#fotos-sobre .img-slide {
       cursor: pointer; }
     #page div#content section#fotos-sobre div.fotos-sobre img {
-      float: left;
       border: 10px solid #f4f2f2;
       margin: 5px; }
     #page div#content section#fotos-sobre .alinhamento {
@@ -417,7 +416,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         content: "\2713 \00a0";
         font-weight: bold; }
     #page div#content section#sobre div.fotos-sobre img {
-      float: left;
       border: 5px solid #e5e5e5;
       margin: 5px; }
   #page div#content section#form-contato {

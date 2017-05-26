@@ -33,7 +33,7 @@ new WOW().init();
 							<li class="youtube"><a target="_blank" href="https://www.facebook.com/mecagape/?fref=ts"></a></li>
 							<li class="instagram"><a target="_blank" href="#"></a></li>
 							<li class="twitter"><a target="_blank" href="https://www.instagram.com/m.e.c.a.insta/"></a></li>
-							<li class="facebook"><a target="_blank" href="#"></a></li>
+							<li class="facebook"><a target="_blank" href="https://www.youtube.com/channel/UCBJ-iQdlaBPh0i99AAlvn7Q"></a></li>
 						</ul>
 					</div>
 				</div>
